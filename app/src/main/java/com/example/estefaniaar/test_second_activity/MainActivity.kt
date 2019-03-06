@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
     }
     fun changeActivity(view: View)
     {
-        val intent = Intent(applicationContext,ActivitySecond::class.java);
+        val intent = Intent(applicationContext,ActivitySecond::class.java)
         intent.putExtra("input",name.text.toString())
-        startActivity(intent);
+        startActivity(intent)
     }
 }

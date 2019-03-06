@@ -14,11 +14,11 @@ class ActivitySecond : AppCompatActivity() {
         setContentView(R.layout.activity_second)
         val intent = intent
         val received = intent.getStringExtra("input")
-        name2.text = "Hello $received";
+        name2.text = "Hello $received"
     }
     fun goBack(view: View)
     {
         val intent = Intent(applicationContext,MainActivity::class.java)
-        startActivity(intent);
+        startActivity(intent)
     }
 }
